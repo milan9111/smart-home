@@ -1,0 +1,70 @@
+.hero__container {
+  position: relative;
+  max-width: 1366px;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(28.39%, rgba(152, 195, 232, 0.2)), to(#fff));
+  background: linear-gradient(to top, rgba(152, 195, 232, 0.2) 28.39%, #fff);
+}
+
+.hero__text {
+  position: absolute;
+  left: 180px;
+  top: 75px;
+}
+
+.hero__title span {
+  display: block;
+}
+
+.hero__subtitle {
+  margin-top: 42px;
+}
+
+.hero__subtitle span {
+  display: block;
+}
+
+.hero__image {
+  position: absolute;
+  right: 40px;
+  top: 30px;
+}
+
+.hero__button {
+  padding-top: 430px;
+  padding-left: 180px;
+  padding-bottom: 190px;
+}
+
+.title {
+  font-size: 64px;
+  font-family: "Galien";
+  font-weight: bold;
+  color: #1F3F68;
+  letter-spacing: 4%;
+}
+
+.subtitle {
+  font-size: 16px;
+  color: #1F3F68;
+  font-family: 'Gilroy-Regular';
+  opacity: 60%;
+  letter-spacing: 5%;
+  line-height: 1.5;
+}
+
+.button button {
+  font-size: 16px;
+  font-family: 'Gilroy-Regular';
+  color: #fff;
+  letter-spacing: 4%;
+  padding: 15px 53px;
+  border: none;
+  border-radius: 10px;
+  background-color: #5A98D0;
+}
+
+.button button:hover {
+  cursor: pointer;
+  -webkit-filter: drop-shadow(5px 10px 20px #356dad56);
+          filter: drop-shadow(5px 10px 20px #356dad56);
+}

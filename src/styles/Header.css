@@ -1,0 +1,29 @@
+.header__container {
+  max-width: 1140px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header__logo {
+  padding-top: 48px;
+}
+
+.header__menu {
+  padding-top: 56px;
+}
+
+.header__menu button {
+  border: 3px solid transparent;
+  border-radius: 5px;
+}
+
+.header__menu button:hover {
+  cursor: pointer;
+  border: 3px solid #356EAD;
+  border-radius: 5px;
+}

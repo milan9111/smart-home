@@ -1,0 +1,124 @@
+.ourProject {
+    &__container {
+        max-width: 940px;
+        margin: 0 auto;
+    }
+
+    &__box-title{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 95px;
+    }
+
+    &__title{
+        font-family: 'Gilroy-Regular';
+        font-size: 36px;
+        font-weight: 600;
+        color: #316099;
+        letter-spacing: 5%;
+        span {
+            display: block;
+        }
+    }
+
+    &__subtitle{
+        font-family: 'Gilroy-Regular';
+        font-size: 16px;
+        font-weight: 400;
+        color: #1F3F68;
+        letter-spacing: 5%;
+        margin-right: 150px;
+        span {
+            display: block;
+        }
+    }
+
+    &__box-images{
+        display: flex;
+        flex-wrap: wrap;
+        align-content: space-between;
+    }
+
+    &__item1{
+        position: relative;
+        margin-bottom: 90px;
+        img{
+            max-width: 100%;
+        }
+    }
+
+    &__item1-box{
+        position: absolute;
+        right: 80px;
+        top: 60px;
+    }
+
+    &__item1-title {
+        font-family: 'Gilroy-Regular';
+        font-size: 28px;
+        font-weight: 500;
+        color: #fff;
+    }
+    &__item1-subtitle {
+        font-family: 'Gilroy-Regular';
+        font-size: 16px;
+        font-weight: 400;
+        color: #fff;
+        margin: 15px 0px 0px 94px;
+    }
+    &__item2{
+        position: relative;
+        margin-bottom: 190px;
+        margin-right: 96px;
+        img{
+            max-width: 100%;
+        }
+    }
+
+    &__item2-box{
+        position: absolute;
+        left: 30px;
+        top: 33px;
+    }
+
+    &__item2-title {
+        font-family: 'Gilroy-Regular';
+        font-size: 28px;
+        font-weight: 500;
+        color: #fff;
+    }
+    &__item2-subtitle {
+        font-family: 'Gilroy-Regular';
+        font-size: 16px;
+        font-weight: 400;
+        color: #fff;
+        margin-top: 13px;
+    }
+    &__item3{
+        position: relative;
+        margin-bottom: 190px;
+        img{
+            max-width: 100%;
+        }
+    }
+
+    &__item3-box{
+        position: absolute;
+        left: 30px;
+        top: 33px;
+    }
+
+    &__item3-title {
+        font-family: 'Gilroy-Regular';
+        font-size: 28px;
+        font-weight: 500;
+        color: #fff;
+    }
+    &__item3-subtitle {
+        font-family: 'Gilroy-Regular';
+        font-size: 16px;
+        font-weight: 400;
+        color: #fff;
+        margin-top: 13px;
+    }
+}

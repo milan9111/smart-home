@@ -1,0 +1,140 @@
+.ourProject__container {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+.ourProject__box-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 95px;
+}
+
+.ourProject__title {
+  font-family: 'Gilroy-Regular';
+  font-size: 36px;
+  font-weight: 600;
+  color: #316099;
+  letter-spacing: 5%;
+}
+
+.ourProject__title span {
+  display: block;
+}
+
+.ourProject__subtitle {
+  font-family: 'Gilroy-Regular';
+  font-size: 16px;
+  font-weight: 400;
+  color: #1F3F68;
+  letter-spacing: 5%;
+  margin-right: 150px;
+}
+
+.ourProject__subtitle span {
+  display: block;
+}
+
+.ourProject__box-images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+}
+
+.ourProject__item1 {
+  position: relative;
+  margin-bottom: 90px;
+}
+
+.ourProject__item1 img {
+  max-width: 100%;
+}
+
+.ourProject__item1-box {
+  position: absolute;
+  right: 80px;
+  top: 60px;
+}
+
+.ourProject__item1-title {
+  font-family: 'Gilroy-Regular';
+  font-size: 28px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.ourProject__item1-subtitle {
+  font-family: 'Gilroy-Regular';
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  margin: 15px 0px 0px 94px;
+}
+
+.ourProject__item2 {
+  position: relative;
+  margin-bottom: 190px;
+  margin-right: 96px;
+}
+
+.ourProject__item2 img {
+  max-width: 100%;
+}
+
+.ourProject__item2-box {
+  position: absolute;
+  left: 30px;
+  top: 33px;
+}
+
+.ourProject__item2-title {
+  font-family: 'Gilroy-Regular';
+  font-size: 28px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.ourProject__item2-subtitle {
+  font-family: 'Gilroy-Regular';
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  margin-top: 13px;
+}
+
+.ourProject__item3 {
+  position: relative;
+  margin-bottom: 190px;
+}
+
+.ourProject__item3 img {
+  max-width: 100%;
+}
+
+.ourProject__item3-box {
+  position: absolute;
+  left: 30px;
+  top: 33px;
+}
+
+.ourProject__item3-title {
+  font-family: 'Gilroy-Regular';
+  font-size: 28px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.ourProject__item3-subtitle {
+  font-family: 'Gilroy-Regular';
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  margin-top: 13px;
+}
