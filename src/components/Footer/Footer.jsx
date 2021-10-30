@@ -85,7 +85,7 @@ const Footer = (props) => {
                     </div>
                     <div className="footer__bottom">
                         <div className="footer__bottom-box">
-                            <time datetime="2019">2019</time> © Afrianska. All rights reserved.
+                            <time dateTime="2019">2019</time> © Afrianska. All rights reserved.
                         </div>
                     </div>
                 </div>

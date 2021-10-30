@@ -1,11 +1,21 @@
 import React from "react";
 import './../../styles/OurClient.css';
+import { useState } from "react";
 
-
-
-  
 
 const OurClient = (props) => {
+ 
+    const onMouseTarget = (event) => {
+        let target = event.target;
+        target.style.background = '#1f3f6833';
+    }
+    
+    const leaveMouseTarget = (event) => {
+        let target = event.target;
+        target.style.background = '';
+    }
+
+
     return(
         <div className="ourClient">
             <div className="ourClient__container">
@@ -20,7 +30,8 @@ const OurClient = (props) => {
                        <span>enim ad minim veniam.</span> 
                     </div>
                 </div>
-                <div className="ourClient__box-logo">
+                <div className="ourClient__box-logo" onMouseOver={(event) => {onMouseTarget(event)}} 
+                                                     onMouseOut={(event) => {leaveMouseTarget(event)}}>
                     <div className="ourClient__logo ourClient__item1">LOGO CLIENT 1</div>
                     <div className="ourClient__logo ourClient__item2">LOGO CLIENT 2</div>
                     <div className="ourClient__logo ourClient__item3">LOGO CLIENT 3</div>

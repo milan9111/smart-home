@@ -1,6 +1,7 @@
 .ourClient {
   background-color: #5A98D0;
   border-radius: 200px 0px 0px 0px;
+  padding-bottom: 125px;
 }
 
 .ourClient__container {
@@ -50,7 +51,7 @@
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  padding-bottom: 125px;
+  padding: 0px 6px 0px 6px;
 }
 
 .ourClient__logo {
@@ -59,7 +60,7 @@
   font-weight: 600;
   color: #fff;
   letter-spacing: 2%;
-  padding: 40px 45px;
+  padding: 40px 39px;
 }
 
 .ourClient__logo:hover {
@@ -87,7 +88,7 @@
 
 .ourClient__item5 {
   border-right: 1px solid #fff;
-  padding-right: 41px;
+  padding-right: 35px;
 }
 
 .ourClient__item6 {
@@ -96,5 +97,5 @@
 
 .ourClient__item7 {
   border-right: 1px solid #fff;
-  padding-right: 46px;
+  padding-right: 40px;
 }

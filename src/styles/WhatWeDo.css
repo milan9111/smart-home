@@ -116,6 +116,10 @@
   padding-left: 28px;
 }
 
+.whatWeDo__item-button:hover::after {
+  cursor: pointer;
+}
+
 .whatWeDo__item-button button:hover {
   cursor: pointer;
 }

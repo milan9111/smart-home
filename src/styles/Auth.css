@@ -1,0 +1,66 @@
+.auth__container {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.auth__error {
+  font-family: 'Gilroy-Regular';
+  color: red;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.auth__register-box {
+  border: 2px solid #316099;
+  border-radius: 15px;
+  background-color: #fff;
+  padding-bottom: 10px;
+  margin-top: 10px;
+}
+
+.auth__title {
+  font-family: 'Gilroy-Regular';
+}
+
+.auth__email {
+  margin-bottom: 10px;
+  border: 2px solid #5A98D0;
+  border-radius: 5px;
+}
+
+.auth__password {
+  margin-bottom: 10px;
+  border: 2px solid #5A98D0;
+  border-radius: 5px;
+}
+
+.auth__login-box {
+  border: 2px solid #316099;
+  border-radius: 15px;
+  background-color: #fff;
+  padding-bottom: 10px;
+  margin-top: 10px;
+}
+
+.auth__emailSuccess {
+  color: #0bb30b;
+  margin-bottom: 10px;
+}
+
+.auth__buttonSuccess {
+  margin-bottom: 15px;
+}
+
+.auth__buttonSuccess button:hover {
+  background-color: #0bb30b;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.auth__buttonOut button:hover {
+  background-color: #e42020;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}

@@ -105,6 +105,10 @@
             padding-left: 28px;
         }
 
+        &:hover::after {
+            cursor: pointer;
+        }
+
 
         button:hover {
             cursor: pointer;

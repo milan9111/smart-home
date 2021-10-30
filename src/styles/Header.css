@@ -20,10 +20,12 @@
 .header__menu button {
   border: 3px solid transparent;
   border-radius: 5px;
+  background-color: transparent;
 }
 
 .header__menu button:hover {
   cursor: pointer;
   border: 3px solid #356EAD;
   border-radius: 5px;
+  background-color: transparent;
 }
