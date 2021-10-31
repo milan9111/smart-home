@@ -7,6 +7,31 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  padding: 0px 15px 0px 15px;
+}
+
+@media (max-width: 1200px) {
+  .header__container {
+    max-width: 970px;
+  }
+}
+
+@media (max-width: 992px) {
+  .header__container {
+    max-width: 750px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header__container {
+    max-width: 578px;
+  }
+}
+
+@media (max-width: 576px) {
+  .header__container {
+    max-width: none;
+  }
 }
 
 .header__logo {

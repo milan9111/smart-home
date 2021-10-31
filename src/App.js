@@ -30,9 +30,7 @@ function App() {
              <OurProject />
              <OurClient />
             </main>
-            <footer>
-             <Footer />
-            </footer>
+          <Footer />
         </div>}
     </> 
   );

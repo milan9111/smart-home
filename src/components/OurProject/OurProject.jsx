@@ -7,7 +7,7 @@ import item3 from '../../source/images/ourProject3.png';
 
 const OurProject = (props) => {
     return(
-        <div className="ourProject__container">
+        <section className="ourProject__container">
             <div className="ourProject__box-title">
                 <div className="ourProject__title title">
                    <span> Our Finished</span>
@@ -54,7 +54,7 @@ const OurProject = (props) => {
                     </div>
                  </div>   
             </div>
-        </div>
+        </section>
     );
 }
 

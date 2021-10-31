@@ -17,7 +17,7 @@ const OurClient = (props) => {
 
 
     return(
-        <div className="ourClient">
+        <section className="ourClient">
             <div className="ourClient__container">
                 <div className="ourClient__box-title">
                     <div className="ourClient__title title">
@@ -42,7 +42,7 @@ const OurClient = (props) => {
                     <div className="ourClient__logo ourClient__item8">LOGO CLIENT 8</div>
                 </div>
             </div>
-        </div>
+        </section>
     );
 }
 

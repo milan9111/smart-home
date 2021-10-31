@@ -7,7 +7,7 @@ import item3 from './../../source/images/item3.png';
 
 const WhatWeDo = () => {
     return(
-        <div className="whatWeDo__container">
+        <section className="whatWeDo__container">
                 <div className="whatWeDo__box">
                         <div className="whatWeDo__title title">
                                 <span>What we do to help</span> 
@@ -71,7 +71,7 @@ const WhatWeDo = () => {
                                 </div>
                         </div>  
                 </div>
-        </div>
+        </section>
     );
 }
 

@@ -6,7 +6,7 @@ import illustration from './../../source/images/illustration.png'
 const Hero = (props) => {
     return(
         <>
-        <div className='hero__container'>
+        <section className='hero__container'>
             <div className="hero__text">
                 <div className="hero__title title">
                     <span>New Automation</span>  
@@ -24,7 +24,7 @@ const Hero = (props) => {
             <div className="hero__button button">
                     <button>See Our Project</button>
             </div>
-        </div>
+        </section>
         
         </>
     );

@@ -5,7 +5,7 @@ import logoFooter from './../../source/images/logo-footer.png';
 
 const Footer = (props) => {
     return(
-        <div className="footer">
+        <footer className="footer">
                 <div className="footer__container">
                     <div className="footer__top">
                         <div className="footer__box-title">
@@ -89,7 +89,7 @@ const Footer = (props) => {
                         </div>
                     </div>
                 </div>
-        </div>
+        </footer>
     );
 }
 
